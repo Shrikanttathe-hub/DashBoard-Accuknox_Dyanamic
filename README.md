@@ -1,3 +1,19 @@
+TO Run locally this wensite // step
+
+extract the file zip file
+
+Open this file into VS code
+
+open new terminal
+
+give command npm start)
+
+it will show on the browser.
+
+Thannks
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
