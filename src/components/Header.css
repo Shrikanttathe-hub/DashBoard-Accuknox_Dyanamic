@@ -1,0 +1,89 @@
+.main1{
+    background-color: #f0f5fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-right: 5px;
+}
+.dash{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.refresh{
+    background-color: #fafafa;
+    height: 40px;
+    width: 28px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    transition: 0.3s ease-out;
+}
+.refresh:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.dots{
+    background-color: #fafafa;
+    height: 40px;
+    width: 28px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    transition: 0.3s ease-out;
+}
+.dots:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.last-day{
+    background-color: #ffffff;
+    align-items: center;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #242585;
+    font-weight: 500;
+    color: #242585;
+}
+
+.Add-widget1{
+    background-color: #ffffff97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #79838e;
+    border: 1px solid  #79838e;
+    transition: 0.3s ease-out;
+}
+.Add-widget1:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+   background-color: hsla(0, 0%, 100%, 0.1);
+}
+.last-day span{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(3, 3, 47, 0.785);
+    transition: 0.1s ease-out;
+}
+.last-day:hover{
+   cursor: pointer;
+}

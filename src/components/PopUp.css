@@ -1,0 +1,71 @@
+.Pop{
+   display: flex;
+   width: 490px;
+   height: 706px;
+   background-color: #fafafa;
+   position: fixed;
+   margin-right: 68px;
+   margin-top: 525px;
+   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+   border-radius: 5px;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: end;
+   
+}
+.pop-flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1971c9;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #fafafa;
+}
+.pop-modal{
+    position:fixed;
+    align-items: center;
+    margin: 40px;
+    margin-right: 120px;
+}
+.cross:hover{
+  background-color: #528ef2;
+  border-radius: 50%;
+}
+.bottom-button{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin-top: 600px;
+    gap: 10px;
+    position: relative;
+}
+ .bottom-compo{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right:10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: 0.3s ease-out;
+}
+.bottom-compo:hover{
+    background-color: #ff0000;
+    transition: 1.4s;
+}
+.bottom-compo-two{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right:10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #1971c9;
+    color: #fafafa;
+    transform: 0.3s ease-out;
+}
+.bottom-compo-two:hover{
+    background-color: #528ef2;
+    transition: 1.4s;
+}
