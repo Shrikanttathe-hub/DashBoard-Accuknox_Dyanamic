@@ -4,7 +4,7 @@ import { X } from 'lucide-react';
 import Modal from './Modal';
 
 
-const PopUp = ({show}) => {
+const PopUp = ({show, saveEdit}) => {
   return (
     <div className='Pop'>
       <div className='pop-flex'>
@@ -17,7 +17,7 @@ const PopUp = ({show}) => {
       <div>
         <div className='bottom-button'>
         <button className='bottom-compo' onClick={show}>Cancel</button>
-        <button className='bottom-compo-two'>Confirm</button>
+        <button className='bottom-compo-two' onClick={saveEdit}>Confirm</button>
         </div>
       </div>
     </div>

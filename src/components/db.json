@@ -4,12 +4,13 @@
         "Categories": "CSPM Executive Dashboard",
         "Title": "Cloud Accounts",
         "Pair": "Connected(2)",
-        "unpair": "Not Connected(2)" 
+        "unpair": "Not Connected(2)" ,
+        "Passed": "7253"
     },
 
     {
         "id": "2",
-        "Categories": "Cloud Account Risk Assessment",   
+        "Title": "Cloud Account Risk Assessment",   
         "Failed": "1677",
         "Warning": "981",
         "Not available" : "47",
@@ -22,7 +23,7 @@
         "Failed": "",
         "Warning": "",
         "Not available" : "",
-        "Passed": ""
+        "Passed": "456"
     },
 
     {
@@ -32,7 +33,7 @@
         "Failed": "",
         "Warning": "",
         "Not available" : "",
-        "Passed": ""
+        "Passed": "123"
     },
     {
         "id": "5",
